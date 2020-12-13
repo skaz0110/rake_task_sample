@@ -1,0 +1,9 @@
+<h1>一覧表示</h1>
+
+<% @users.each do |user| %>
+  <p>
+    <%= user.name %>
+    <%= user.age %>
+    <%= user.address %>
+  </p>
+<% end %>
